@@ -2,13 +2,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: #ffffff
 }
 /*font size of most of the text*/
 body {
     background-color: #d9dcd6;
     font-size: 16px;
-
+    color: #ffffff
 }
 
 header {
@@ -39,6 +38,7 @@ header li {
 /*removing line from the links*/
 a {
     text-decoration: none;
+    color: #ffffff
 }
 
 /*Picture of meeting*/
@@ -50,7 +50,7 @@ a {
     background-size: cover;
     background-position: center;
 }
-/*change name to main*/
+/*change name to main DONE*/
 /*left side main content*/
 main {
     width: 75%;
@@ -67,7 +67,7 @@ main {
     float: right;
     margin-left: 25px;
 }
-/*change all these to sections*/
+/*change all these to sections DONE*/
 /*Seach Engine optimization, online reputation management, social media marketing*/
 section{
     margin-bottom: 20px;
@@ -86,9 +86,9 @@ section h2 {
     font-size: 36px;
 }
 
-/*Change name to aside*/
-/*Side content*/
-.benefits {
+/*Change name to aside DONE*/
+/*Side content benefits*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -99,31 +99,32 @@ section h2 {
     background-color: #2589bd;
 }
 
-.benefit-lead .benefit-brand .benefit-cost{
+aside div{
     margin-bottom: 32px;
 }
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3{
+h3{
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img, .benefit-cost img, .benefit-brand img {
+aside div img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-
+/*footer with copywrite and author*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: black
     
 }
 
 footer h2 {
     font-size: 20px;
-    color: black;
+    
 }
