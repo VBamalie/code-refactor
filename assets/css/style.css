@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
 }
-/*font size of most of the text*/
+/*font size and color of most of the text*/
 body {
     background-color: #d9dcd6;
     font-size: 16px;
@@ -35,7 +35,8 @@ header li {
     display: inline-block;
     margin-left: 25px;
 }
-/*removing line from the links*/
+/* this removes line from the links
+ have to add color after removing line*/
 a {
     text-decoration: none;
     color: #ffffff
@@ -50,8 +51,8 @@ a {
     background-size: cover;
     background-position: center;
 }
-/*change name to main DONE*/
-/*left side main content*/
+/*change semantic tage to main DONE
+left side main content*/
 main {
     width: 75%;
     display: inline-block;
